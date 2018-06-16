@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Ejemplo 4",
+    "version": "0.1",
+    "description": "El cuarto ejemplo de extension",
+    "web_accessible_resources": [
+        "imgs/*.jpg"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "contenido.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "imagenes/icon.png"
+    }
+}
