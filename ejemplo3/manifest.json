@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name":"Ejemplo 3",
+    "version":"0.2",
+    "description":"El tercer ejemplo de extension",
+    "content_scripts": [
+        {
+            "matches":[
+                "<all_urls>"
+            ],
+            "js":[
+                "content.js"
+            ]
+        }
+    ],
+    "background":{
+        "scripts":["background.js"]
+    },
+    "browser_action":{
+        "default_icon":"imagenes/icon.png"
+    } 
+   
+}
