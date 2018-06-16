@@ -1,0 +1,12 @@
+{
+    
+    "name":"Ejemplo 1..",
+    "version":"0.3",
+    "description":"El primer ejemplo de extension",
+    "background_page":"bg.html",    
+    "browser_action":{
+        "default_icon": "imagenes/icon.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
